@@ -45,11 +45,11 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="/#"><img src={navIcon1} alt="" /></a>
-                <a href="/#"><img className="social-icon-git" src={navIcon2} alt="" /></a>
-                <a href="/#"><img src={navIcon3} alt="" /></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/gooddev-gabriel-soares/"><img src={navIcon1} alt="" /></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/GabreuSenra"><img className="social-icon-git" src={navIcon2} alt="" /></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/gabreusenra/"><img src={navIcon3} alt="" /></a>
               </div>
-                <button className="vvd"><span>Let’s Connect</span></button>
+                <button className="vvd"><span>Let’s Connect (UD)</span></button>
             </span>
           </Navbar.Collapse>
         </Container>
