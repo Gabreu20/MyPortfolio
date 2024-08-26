@@ -6,16 +6,12 @@ export const Banner = () =>{
     return(
         <section className="banner" id="home">
             <Container>
+                <img src={"https://avatars.githubusercontent.com/u/48576715?v=4"} />
                 <Row className="align-items-center"> 
-                    <Col xs={12} md={6} xl={7}>
-                        <span className="tagLine">Welcome to my Portfolio</span>
-                        <h1>{"I'm Gabriel Soares"}</h1>
-                        <p>An enthusiastic programmer who finds great joy and satisfaction in the process of creating immersive experiences.</p>
-                        <button onClick={() => console.log('connect')}>Let's connect (Under Development) <ArrowRightCircle size={25}></ArrowRightCircle> </button>
-                    </Col>
-                    <Col xs={12} md={6} xl={5}>
-                        <img src={headerImg} alt="Headder Img" />
-                    </Col>
+                    <span className="tagLine">Welcome to my Portfolio</span>
+                    <h1>{"I'm Gabriel Senra"}</h1>
+                    <p>An enthusiastic programmer who finds great joy and satisfaction in the process of creating immersive experiences.</p>
+                    <button onClick={() => console.log('connect')}>Let's connect (Under Development) <ArrowRightCircle size={25}></ArrowRightCircle> </button>                
                 </Row>
             </Container>
         </section>

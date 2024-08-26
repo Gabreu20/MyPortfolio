@@ -10,7 +10,7 @@ export const NavBar = () => {
   const [activeLink, setActiveLink] = useState('home');
   const [scrolled, setScrolled] = useState(false);
 
-  useEffect(() => { //esconde a navbar caso o usuario scrolle para baixo
+  useEffect(() => {
     const onScroll = () => {
       if (window.scrollY > 50) {
         setScrolled(true);
